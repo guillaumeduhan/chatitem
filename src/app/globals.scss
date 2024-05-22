@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  
+.card {
+  @apply border rounded-lg shadow;
+}
+
+div, input {
+  @apply ring-0 outline-none focus-visible:ring-offset-0 #{!important};
+}
+
+::placeholder {
+  @apply text-neutral-300 #{!important};
+}
